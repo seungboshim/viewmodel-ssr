@@ -1,7 +1,7 @@
 'use client';
 
 import { Suspense } from 'react';
-import { PostListView } from '@/components/organisms/PostListView';
+import { PostListView } from '@/components/post/PostListView';
 
 export default function PostsCSRPage() {
   return (

@@ -1,7 +1,7 @@
 'use client';
 
 import { useGetPostsQuery } from '@/store/queries/postQueries';
-import { PostList } from '@/components/organisms/PostList';
+import { PostList } from '@/components/post/PostList';
 
 // CSR 조회 전용 게시판 컴포넌트
 export function PostListView() {

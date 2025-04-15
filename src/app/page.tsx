@@ -2,7 +2,7 @@
 
 import { usePostViewModel } from '@/viewModels/post/usePostViewModel';
 import { PostForm } from '@/components/molecules/PostForm';
-import { PostList } from '@/components/organisms/PostList';
+import { PostList } from '@/components/post/PostList';
 import Link from 'next/link';
 
 export default function Home() {

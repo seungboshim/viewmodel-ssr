@@ -1,6 +1,6 @@
 'use client';
 
-import { PostList } from '@/components/organisms/PostList';
+import { PostList } from '@/components/post/PostList';
 import type { Post } from '@/utils/apis/post/types/post.types';
 
 interface PostClientProps {

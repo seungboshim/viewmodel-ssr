@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { ServerPostViewModel } from '@/viewModels/post/serverPostViewModel';
-import PostClient from '@/components/organisms/PostClient';
+import PostClient from '@/components/post/PostClient';
 
 export default async function PostsPage() {
   // ServerPostViewModel을 사용하여 데이터 가져오기
